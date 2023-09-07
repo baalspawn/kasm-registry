@@ -2,7 +2,7 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
+    name: 'Petersen Tech',
     description: 'The official store for Kasm supported workspaces.',
     icon: '/img/logo.svg',
     listUrl: 'https://baalspawn.github.io/kasm-registry/',
