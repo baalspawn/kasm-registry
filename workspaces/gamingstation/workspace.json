@@ -1,1 +1,29 @@
-
+{
+  "description": "Gaming Workstation", 
+  "docker_registry": "https://docker2.newey.id.au/v2/", 
+  "image_src": "ubuntuws.png", 
+  "name": "my-ubuntu:latest" ,
+  "run_config": {
+    "hostname": "kasm-Gaming"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Workstation" 
+  ],
+  "friendly_name": "Gaming Workstation", 
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 21700
+}
