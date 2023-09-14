@@ -10,6 +10,19 @@
   "architecture": [
     "amd64"
   ],
+  "run_config": {
+  "hostname": "kasm",
+  "security_opt": [
+    "seccomp=unconfined"
+  ],
+  "user": "root"
+},
+  "exec_config": {
+  "first_launch": {
+    "cmd": "bash -c 'apt-get update && sudo apt-get install nano -y && apt-get install cherrytree -y && ln -s /share/ ~/Desktop/share && echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'",
+    "user": "root"
+  }
+},
   "compatibility": [
     "1.13.x",
     "1.14.x"
