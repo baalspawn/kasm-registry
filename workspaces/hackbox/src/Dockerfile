@@ -12,7 +12,7 @@ WORKDIR $HOME
 RUN apt update
 RUN apt -y upgrade
 RUN apt -y install openvpn
-RUN apt -y install tailscale
+#RUN apt -y install tailscale
 
 COPY assets/mr-robot-wallpaper.png /usr/share/extra/backgrounds/bg_default.png
 
