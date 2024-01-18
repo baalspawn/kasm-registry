@@ -9,8 +9,9 @@ WORKDIR $HOME
 ######### Customize Container Here ###########
 
 
-RUN touch $HOME/Desktop/hello.txt
-
+RUN apt update
+RUN apt -y upgrade
+#RUN apt -y install
 
 ######### End Customizations ###########
 
