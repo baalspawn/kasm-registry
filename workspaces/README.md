@@ -6,6 +6,8 @@ This directory is for storing all the files needed for your workspaces store, th
 * workspaces/Workspace Name/workspace.json
 * workspaces/Workspace Name/workspace-name.png
 
-example registry:
+mine registry:
 https://baalspawn.github.io/kasm-registry/1.0/
+
+Linuxservers.io registry:
 https://kasmregistry.linuxserver.io/1.0/
