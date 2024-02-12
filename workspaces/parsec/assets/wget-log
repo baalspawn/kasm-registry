@@ -1,15 +1,0 @@
---2024-01-18 14:08:36--  https://www.google.com/imgres?imgurl=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1001821%2F800x450%2F9bab22b55f%2F1_kvdlzaqj8zw4j-wx85izfg.png
-Resolving www.google.com (www.google.com)... 142.250.74.100, 2a00:1450:400f:803::2004
-Connecting to www.google.com (www.google.com)|142.250.74.100|:443... connected.
-HTTP request sent, awaiting response... 301 Moved Permanently
-Location: https://www.google.com/imghp [following]
---2024-01-18 14:08:36--  https://www.google.com/imghp
-Reusing existing connection to www.google.com:443.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘imgres?imgurl=https:%2F%2Fa-us.storyblok.com%2Ff%2F1001821%2F800x450%2F9bab22b55f%2F1_kvdlzaqj8zw4j-wx85izfg.png’
-
-                               imgres?imgurl=https:%2F%2Fa-us.     [<=>                                                                                                                                                  ]       0  --.-KB/s               imgres?imgurl=https:%2F%2Fa-us.storyblok.com%2Ff%2F1001821%2F8     [ <=>                                                                                                                                                 ]  17.96K  --.-KB/s    in 0.04s   
-
-2024-01-18 14:08:37 (411 KB/s) - ‘imgres?imgurl=https:%2F%2Fa-us.storyblok.com%2Ff%2F1001821%2F800x450%2F9bab22b55f%2F1_kvdlzaqj8zw4j-wx85izfg.png’ saved [18396]
-
