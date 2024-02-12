@@ -1,6 +1,6 @@
 {
     "friendly_name": "hackbox",
-    "image_src": "\assets\MRRobotLogo.png.png",
+    "image_src": "\assets\MRRobotLogo.png",
     "description": "Moonlight PC is an open source PC client for NVIDIA GameStream, as used by the NVIDIA Shield.",
     "name": "registry.mdoni.de/donimax/moonlight-qt:dev",
     "cpu_allocation_method": "Inherit",
