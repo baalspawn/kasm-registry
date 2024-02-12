@@ -19,7 +19,7 @@
 },
   "exec_config": {
   "first_launch": {
-    "cmd": "bash -c 'apt-get update && sudo apt-get install nano -y && apt-get install cherrytree -y && ln -s /share/ ~/Desktop/share && echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'",
+    "cmd": "bash -c 'apt-get update && sudo apt-get install nano -y && apt -y install wine && dpkg –add-architecture i386 -y && wget -nc https://dl.winehq.org/wine-builds/winehq.key && add-apt-repository ‘deb https://dl.winehq.org/wine-builds/ubuntu/ focal main’ && apt update && apt install wine32 && wget -nc https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.2/npp.8.6.2.Installer.x64.exe &&apt-get install cherrytree -y && ln -s /share/ ~/Desktop/share && echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'",
     "user": "root"
   }
 },
