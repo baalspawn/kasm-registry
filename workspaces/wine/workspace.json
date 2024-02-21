@@ -2,7 +2,7 @@
   "friendly_name": "Wine",
   "image_src": "wine.png",
   "description": "Wine",
-  "name": "Olekpetersen/wine:latest",
+  "name": "olekpetersen/wine:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
@@ -18,3 +18,7 @@
     "amd64"
   ]
 }
+
+
+
+
