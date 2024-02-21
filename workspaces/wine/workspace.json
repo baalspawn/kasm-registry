@@ -1,24 +1,23 @@
 {
-  "friendly_name": "Wine",
-  "image_src": "wine.png",
-  "description": "Wine",
-  "name": "olekpetersen/wine:latest",
-  "cores": 2,
-  "memory": 2768,
-  "gpu_count": 0,
-  "cpu_allocation_method": "Inherit",
+  "description": "Wine is a free and open-source application for running windows applications.",
   "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "wine.png",
+  "name": "olekpetersen/wine:latest",
   "categories": [
     "Desktop"
   ],
-  "require_gpu": false,
-  "enabled": true,
-  "image_type": "Container",
+  "friendly_name": "Wine",
   "architecture": [
-    "amd64"
-  ]
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x
+  ],
+  "uncompressed_size_mb": 2170
 }
-
 
 
 
